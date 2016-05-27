@@ -1,0 +1,66 @@
+{
+    "aliquot": 2, 
+    "analysis_type": "unknown", 
+    "collection_version": "0.1:0.1", 
+    "comment": "C:3 Groundmass 8.23 mg", 
+    "commit": "f0b8f7544fe3c3cee4627fed5de9c33a9bfd4d2d", 
+    "conditionals": null, 
+    "detectors": {
+        "AX": {
+            "deflection": 0, 
+            "gain": 0
+        }, 
+        "H1": {
+            "deflection": 0, 
+            "gain": 0
+        }, 
+        "H2": {
+            "deflection": 0, 
+            "gain": 0
+        }, 
+        "L1": {
+            "deflection": 0, 
+            "gain": 0
+        }, 
+        "L2(CDD)": {
+            "deflection": 0, 
+            "gain": 0
+        }
+    }, 
+    "extraction": "felix_diode.py", 
+    "identifier": "64204", 
+    "increment": 2, 
+    "intensity_scalar": 0.0, 
+    "irradiation": "NM-283", 
+    "irradiation_level": "C", 
+    "irradiation_position": 3, 
+    "isotopes": {
+        "Ar36": {
+            "detector": "L2(CDD)"
+        }, 
+        "Ar37": {
+            "detector": "L1"
+        }, 
+        "Ar38": {
+            "detector": "AX"
+        }, 
+        "Ar39": {
+            "detector": "H1"
+        }, 
+        "Ar40": {
+            "detector": "H2"
+        }
+    }, 
+    "mass_spectrometer": "Felix", 
+    "material": "Groundmass", 
+    "measurement": "felix_analysis400_120.py", 
+    "project": "Faulds/Carlson", 
+    "queue_conditionals_name": "", 
+    "repository_identifier": "Faulds_Carlson", 
+    "sample": "CC15-021-3", 
+    "spec_sha": "f5bf3da4c0acf4a6eb7e30b93900b20ca090f3ba", 
+    "timestamp": "2016-05-27T06:54:30.649302", 
+    "tripped_conditional": null, 
+    "username": "", 
+    "uuid": "5b4e6cd3-6f3a-440f-aae5-d424db13b2ba"
+}
